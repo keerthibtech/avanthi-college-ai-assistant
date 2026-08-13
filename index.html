@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Avanthi Institute of Engineering and Technology - AI Assistant</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- BACKGROUND OVERLAY -->
+    <div class="background-overlay"></div>
+
+    <!-- HEADER -->
+    <header class="navbar">
+
+        <div class="brand">
+
+            <div class="logo">
+                🎓
+            </div>
+
+            <div class="college-heading">
+
+                <h1>
+                    Avanthi Institute of Engineering and Technology
+                </h1>
+
+                <p>
+                    Tamaram, Makavarapalem • 531113
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="status">
+            <span class="status-dot"></span>
+            AI Online
+        </div>
+
+    </header>
+
+
+    <!-- MAIN -->
+    <main>
+
+        <!-- HERO -->
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <div class="ai-icon">
+                    🤖
+                </div>
+
+                <h2>
+                    Your Smart College Assistant
+                </h2>
+
+                <p>
+                    Ask anything about Avanthi Institute of
+                    Engineering and Technology.
+                </p>
+
+                <p class="hero-small">
+                    Admissions • Courses • Fees • Hostel •
+                    Transport • Placements • Events
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- CHAT CONTAINER -->
+        <section class="chat-container">
+
+            <!-- CHAT HEADER -->
+            <div class="chat-header">
+
+                <div class="bot-profile">
+
+                    <div class="bot-avatar">
+                        🤖
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            College AI Assistant
+                        </h3>
+
+                        <p>
+                            Ask me about Avanthi College
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="online">
+                    ● Online
+                </div>
+
+            </div>
+
+
+            <!-- CHAT BOX -->
+            <div id="chat-box" class="chat-box">
+
+                <div class="message bot-message">
+
+                    <strong>👋 Hello!</strong>
+
+                    <br><br>
+
+                    I'm your
+                    <strong>
+                        Avanthi Institute of Engineering
+                        and Technology AI Assistant
+                    </strong>.
+
+                    <br><br>
+
+                    I can help you find information about:
+
+                    <br><br>
+
+                    🎓 Courses<br>
+                    📝 Admissions<br>
+                    💰 Fees<br>
+                    🏠 Hostel<br>
+                    🚌 Transport<br>
+                    💼 Placements<br>
+                    📍 Location<br>
+                    🎉 Events & Activities
+
+                    <br><br>
+
+                    <strong>
+                        What would you like to know?
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <!-- QUICK QUESTIONS -->
+            <div class="quick-section">
+
+                <p>Quick Questions</p>
+
+                <div class="quick-questions">
+
+                    <button onclick="askQuestion('admission')">
+                        📝 Admissions
+                    </button>
+
+                    <button onclick="askQuestion('courses')">
+                        🎓 Courses
+                    </button>
+
+                    <button onclick="askQuestion('fees')">
+                        💰 Fees
+                    </button>
+
+                    <button onclick="askQuestion('hostel')">
+                        🏠 Hostel
+                    </button>
+
+                    <button onclick="askQuestion('transport')">
+                        🚌 Transport
+                    </button>
+
+                    <button onclick="askQuestion('placements')">
+                        💼 Placements
+                    </button>
+
+                    <button onclick="askQuestion('events')">
+                        🎉 Events
+                    </button>
+
+                    <button onclick="askQuestion('contact')">
+                        📞 Contact
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- INPUT -->
+            <div class="input-area">
+
+                <input
+                    type="text"
+                    id="user-input"
+                    placeholder="Ask something about Avanthi College..."
+                    autocomplete="off"
+                >
+
+                <button
+                    onclick="sendMessage()"
+                    class="send-button">
+                    ➤
+                </button>
+
+            </div>
+
+
+            <p class="disclaimer">
+                🤖 AI Assistant • Information is based on the
+                college knowledge base
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>
+            © 2026 Avanthi Institute of Engineering and Technology
+        </p>
+
+        <p>
+            AI-Powered College Information Assistant
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
